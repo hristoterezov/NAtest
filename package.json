@@ -1,0 +1,30 @@
+{
+  "name": "NAtest",
+  "version": "0.0.0",
+  "description": "Util",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hristoterezov/NAtest.git"
+  },
+  "keywords": [
+    "Util",
+    "WebRTC"
+  ],
+  "author": "Hristo Terezov",
+  "license": "Apache-2.0",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/hristoterezov/NAtest/issues"
+  },
+  "homepage": "https://github.com/hristoterezov/NAtest",
+  "dependencies": {
+    "nan": "^2.2.1"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
+}
